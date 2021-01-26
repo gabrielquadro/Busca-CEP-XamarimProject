@@ -49,6 +49,7 @@ namespace AppCEP
             bool valido = true;
             if(cep.Length != 8)
             {
+                //
                 DisplayAlert("Erro", "Cep inválido! Cep deve conter 8 caracteres","OK");
                 valido = false;
             }
